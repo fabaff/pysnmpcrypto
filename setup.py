@@ -131,7 +131,7 @@ doclines = [x.strip() for x in (__doc__ or '').split('\n')]
 
 params.update({
     'name': 'pysnmpcrypto',
-    'version': open(os.path.join('pysnmpcrypto', '__init__.py')).read().split('\'')[1],
+    'version': '${version}',
     'description': doclines[0],
     'long_description': '\n'.join(doclines[1:]),
     'maintainer': 'Ilya Etingof <etingof@gmail.com>',
